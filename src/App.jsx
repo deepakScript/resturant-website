@@ -8,6 +8,7 @@ import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import About from './Pages/About'
 import PageNotFound from './Pages/PageNotFound'
+import Cart from './Pages/Cart'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/menu' element={<Menu />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/About' element={<About />} />
+        <Route path='/cart' element={<Cart />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </main>
