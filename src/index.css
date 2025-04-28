@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+
+.flexic{
+    @apply flex items-center
+}
+
