@@ -1,5 +1,32 @@
 @import "tailwindcss";
 
+/* Add slick carousel styles */
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Add this to your index.css file */
+.slick-dots {
+    bottom: 20px !important;  /* Adjust dots' position */
+  }
+  
+  .slick-dots li button:before {
+    color: bg-gradient-to-r from-amber-700 to-rose-600 !important;  /* Set color of dots */
+    font-size: 18px !important; /* Set size of dots */
+  }
+
+  .slick-center {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all 400ms ease;
+  }
+  
+  /* Optional: Make non-center slides slightly smaller */
+  .slick-slide:not(.slick-center) {
+    transform: scale(0.95);
+    opacity: 0.9;
+    transition: all 400ms ease;
+  }
+  
 
 
 .flexic{
