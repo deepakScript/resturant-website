@@ -22,7 +22,7 @@ const Header = () => {
 
         {/* Right side - Navigation links */}
         <div className={`w-full md:flex md:items-center md:w-auto ${isOpen ? 'block' : 'hidden'}`}>
-          <div className="text-gray-700 flex md:flex-row md:space-x-2 gap-x-5 text-lg mr-30">
+          <div className="text-gray-700 flexic flex-col md:flex-row md:space-x-2 gap-x-5 text-lg mr-30">
             <NavLink
               to="/"
               className={({ isActive }) =>
