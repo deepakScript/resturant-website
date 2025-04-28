@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full flex justify-between items-center flex-wrap bg-gradient-to-r from-pink-500 to-yellow-500 p-4 shadow-md">
+    <nav className="w-full px-35 flex justify-between items-center flex-wrap bg-gradient-to-r from-pink-500 to-yellow-500 p-4 shadow-md">
       {/* Left side - Restaurant name */}
       <div className="text-2xl font-bold bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent">
         <Link to="/">My Restaurant</Link>

@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
 
         {/* Right - Columns */}
-        <div className="flex flex-col md:flex-row gap-12">
+        <div className="flex flex-col gap-x-40 md:flex-row gap-12">
           {/* Column 1 */}
           <div className="flex flex-col space-y-2">
             <h3 className="font-semibold text-lg">Company</h3>
@@ -23,6 +23,14 @@ const Footer = () => {
           </div>
 
           {/* Column 2 */}
+          <div className="flex flex-col space-y-2">
+            <h3 className="font-semibold text-lg">Support</h3>
+            <Link to="/contact" className="hover:underline">Contact Us</Link>
+            <Link to="/faq" className="hover:underline">FAQ</Link>
+            <Link to="/help" className="hover:underline">Help Center</Link>
+          </div>
+
+          {/* columne 3 */}
           <div className="flex flex-col space-y-2">
             <h3 className="font-semibold text-lg">Support</h3>
             <Link to="/contact" className="hover:underline">Contact Us</Link>
