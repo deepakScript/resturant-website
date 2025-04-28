@@ -45,10 +45,10 @@ const Banner = () => {
     return (
         <div className="py-10 max-w-6xl mx-auto px-4">
             <h2 className="text-center text-3xl font-medium text-gray-800 mb-8">Our Foods</h2>
-            <div className="relative">
+            <div className="relative w-full">
                 <Slider {...settings}>
                     {restaurantImages.map((image) => (
-                        <div key={image.id} className="px-2 mx-10 focus:outline-none transition-all duration-300 transform hover:scale-105">
+                        <div key={image.id} className="px-2 m-x-10 focus:outline-none transition-all duration-300 transform hover:scale-105">
                             <div className=" m-x-100 relative overflow-hidden rounded-lg shadow-md transition-all duration-300 h-64 hover:shadow-lg">
                                 <img
                                     src={image.src}
