@@ -48,8 +48,8 @@ const Banner = () => {
             <div className="relative w-full">
                 <Slider {...settings}>
                     {restaurantImages.map((image) => (
-                        <div key={image.id} className="px-2 m-x-10 focus:outline-none transition-all duration-300 transform hover:scale-105">
-                            <div className=" m-x-100 relative overflow-hidden rounded-lg shadow-md transition-all duration-300 h-64 hover:shadow-lg">
+                        <div key={image.id} className="px-2 focus:outline-none transition-all duration-300 transform hover:scale-105">
+                            <div className=" m-x-300 relative overflow-hidden rounded-lg shadow-md transition-all duration-300 h-64 hover:shadow-lg">
                                 <img
                                     src={image.src}
                                     alt={image.alt}
