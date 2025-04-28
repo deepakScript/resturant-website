@@ -17,7 +17,7 @@ const Banner = () => {
         infinite: true,
         slidesToShow: 3,
         autoplay: true,  // Fixed capitalization (was 'Autoplay')
-        autoplaySpeed: 500,  // Changed to 1000ms (1 second) and fixed capitalization (was 'AutoplaySpeed')
+        autoplaySpeed: 1000,  // Changed to 1000ms (1 second) and fixed capitalization (was 'AutoplaySpeed')
         centerMode: true,  // Added to enable center-focused effect
         centerPadding: '0',  // Added to control center spacing
         focusOnSelect: true,
