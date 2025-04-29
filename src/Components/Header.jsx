@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaCartPlus } from 'react-icons/fa';
+import { FaCartPlus, FaSearch } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -57,6 +57,15 @@ const Header = () => {
             }
           >
             About
+          </NavLink>
+
+          <NavLink
+            to="/search"
+            className={({ isActive }) =>
+              isActive ? 'text-white font-semibold' : 'hover:text-red-700'
+            }
+          >
+            <FaSearch />
           </NavLink>
 
           {/* Cart Icon with Badge */}
