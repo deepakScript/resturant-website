@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       {/* Sub-Footer */}
-      <div className="bg-pink-600 text-center py-4">
+      <div className=" bg-gradient-to-r from-pink-500 via-red-400 to-yellow-400 text-white text-center pb-3">
         <p className="text-sm">&copy; {new Date().getFullYear()} MyRestaurant. All rights reserved.</p>
       </div>
     </footer>

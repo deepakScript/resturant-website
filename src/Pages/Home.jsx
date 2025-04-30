@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
     <Header />
-    <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${bannerimg})`  }}>
+    <section className="relative w-full h-[570px] bg-[position:50%_30%]  bg-cover" style={{ backgroundImage: `url(${bannerimg})`  }}>
       <div className="absolute inset-0 bg-black opacity-40"></div>
       <div className="relative z-10 flex items-center justify-start h-full px-6 md:px-12">
         <div className="max-w-lg text-white">
