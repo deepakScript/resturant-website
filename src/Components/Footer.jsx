@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className=" bg-gradient-to-r from-pink-500 via-red-400 to-yellow-400 text-white">
+    <footer className="w-full  bg-gradient-to-r from-pink-500 via-red-400 to-yellow-400 text-white">
       {/* Main Footer */}
       <div className="max-w-7xl px-35 mx-auto p-6 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
         {/* Left - Restaurant Name */}
         <div className="text-2xl font-bold">
-          <Link to="/">MyRestaurant</Link>
+          <Link to="/">Deepak Resturant</Link>
         </div>
 
         {/* Right - Columns */}

@@ -10,7 +10,7 @@ const Header = () => {
     <nav className="w-full h-20 px-35 flex justify-between items-center flex-wrap bg-gradient-to-r from-pink-500 to-yellow-500 p-4 shadow-md">
       {/* Left side - Restaurant name */}
       <div className="text-2xl font-bold bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent">
-        <Link to="/">My Restaurant</Link>
+        <Link to="/">Deepak Restaurant</Link>
       </div>
 
       {/* Mobile menu button */}
